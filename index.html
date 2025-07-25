@@ -1,33 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Peso Hustle</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
-      background: #111;
-      color: #0f0;
-      font-family: monospace;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f2f5;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
       text-align: center;
-      padding: 50px;
+      max-width: 400px;
     }
     h1 {
-      font-size: 2em;
-      margin-bottom: 20px;
+      color: #111;
     }
-    a {
-      color: #00f;
+    p {
+      margin-bottom: 1rem;
+      color: #333;
+    }
+    a.button {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background: #1e90ff;
+      color: white;
+      border-radius: 8px;
       text-decoration: none;
+      transition: background 0.3s ease;
     }
-    a:hover {
-      color: #0ff;
+    a.button:hover {
+      background: #0074e0;
     }
   </style>
 </head>
 <body>
-  <h1>💸 Peso Hustle Activated 💸</h1>
-  <p>Welcome, future hacker. Let’s build your passive income empire.</p>
-  <p><a href="https://github.com/Sarah-eng16">GitHub Profile</a></p>
+  <div class="card">
+    <h1>Welcome to Peso Hustle</h1>
+    <p>Your journey to smart earnings starts here.</p>
+    <a href="https://cash-em-all.link/YOUR-REF" class="button">Start Earning</a>
+  </div>
 </body>
-</html>	
+</html>
